@@ -15,6 +15,8 @@ module('Integration | Component | breed', function(hooks) {
     assert.dom('article .detail.height').includesText('28 - 32 inches');
     assert.dom('article .detail.life-span').includesText('7 - 10 years');
     assert.dom('article .detail.breed-group').includesText('Working');
+    assert.dom('article .detail.country-of-origin').includesText('Germany');
+    assert.dom('article .detail.temperament').includesText('Friendly, gentle, loving');
     assert.dom('article .image').exists();
   });
 });
