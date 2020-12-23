@@ -18,5 +18,6 @@ module('Integration | Component | breed', function(hooks) {
     assert.dom('article .detail.country-of-origin').includesText('Germany');
     assert.dom('article .detail.temperament').includesText('Friendly, gentle, loving');
     assert.dom('article .image').exists();
+    assert.dom('article .map').exists();
   });
 });
