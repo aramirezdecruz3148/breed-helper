@@ -6,8 +6,8 @@
 </Header>
 <div class="rentals">
   <ul class="results">
-    <li><Breed /></li>
-    <li><Breed /></li>
-    <li><Breed /></li>
+    {{#each @model as |breed|}}
+      <li><Breed @breed={{breed}} /></li>
+    {{/each}}
   </ul>
 </div>

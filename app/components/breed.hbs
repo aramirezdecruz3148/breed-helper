@@ -1,35 +1,32 @@
 <article class="breed">
   <Breed::Image
-    src="assets/images/great-dane.jpg"
-    alt="A Great Dane and Puppy"
+    src={{@breed.image}}
+    alt="A picture of a {{@breed.name}}"
   />
   <div class="details">
-    <h3>Great Dane</h3>
+    <h3>{{@breed.name}}</h3>
     <div class="detail weight">
-      <span>Weight:</span> 110 - 175
+      <span>Weight:</span> {{@breed.weight}}
     </div>
     <div class="detail height">
-      <span>Height:</span> 28 - 32 inches
+      <span>Height:</span> {{@breed.height}}
     </div>
     <div class="detail life-span">
-      <span>Life Span:</span> 7 - 10 years
+      <span>Life Span:</span> {{@breed.span}}
     </div>
     <div class="detail breed-group">
-      <span>Breed Group:</span> Working
+      <span>Breed Group:</span> {{@breed.group}}
     </div>
     <div class="detail country-of-origin">
-      <span>Breed Origin:</span> Germany
-    </div>
-    <div class="detail temperament">
-      <span>Temperament:</span> Friendly, gentle, loving
+      <span>Breed Origin:</span> {{@breed.origin}}
     </div>
   </div>
   <Map
-    @lat="37.7749"
-    @lng="-122.4194"
+    @lat={{@breed.location.lat}}
+    @lng={{@breed.location.lng}}
     @zoom="9"
     @width="150"
     @height="150"
-    alt="A map of origin for breed"
+    alt="A map of origin for {{@breed.name}}"
   />
 </article>

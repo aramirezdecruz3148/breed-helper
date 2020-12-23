@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "great-dane",
+      "attributes": {
+        "name": "Great Dane",
+        "weight": "110-175 pounds",
+        "height": "28-32 inches",
+        "origin": "Germany",
+        "location": {
+          "lat": 52.5200,
+          "lng": 13.4050
+        },
+        "group": "Working",
+        "image": "assets/images/great-dane.jpg",
+        "span": "7-10 years"
+      }
+    },
+    {
+      "id": "wolf-hound",
+      "attributes": {
+        "name": "Irish Wolf Hound",
+        "weight": "105-120 pounds",
+        "height": "30-32 inches",
+        "origin": "Ireland",
+        "location": {
+          "lat": 53.3498,
+          "lng": -6.266155
+        },
+        "group": "Hound",
+        "image": "assets/images/irish-wolf-hound.jpg",
+        "span": "6-8 years"
+      }
+    },
+    {
+      "id": "mastiff",
+      "attributes": {
+        "name": "Mastiff",
+        "weight": "120-230 pounds",
+        "height": "27-30 inches",
+        "origin": "England",
+        "location": {
+          "lat": 51.5074,
+          "lng": -0.1278 
+        },
+        "group": "Working",
+        "image": "assets/images/mastiff.jpg",
+        "span": "6-10 years"
+      }
+    },
+    {
+      "id": "yorkie",
+      "attributes": {
+        "name": "Yorkshire Terrier",
+        "weight": "7 pounds",
+        "height": "7-8 inches",
+        "origin": "England",
+        "location": {
+          "lat": 51.5074,
+          "lng": -0.1278 
+        },
+        "group": "Toy",
+        "image": "assets/images/yorkie.jpg",
+        "span": "11-15 years"
+      }
+    },
+    {
+      "id": "french-bulldog",
+      "attributes": {
+        "name": "French Bulldog",
+        "weight": "up to 28 pounds",
+        "height": "11-13 inches",
+        "origin": "France",
+        "location": {
+          "lat": 48.8566,
+          "lng": 2.3522 
+        },
+        "group": "Non-Sporting",
+        "image": "assets/images/frenchie.jpg",
+        "span": "10-12 years"
+    }
+  }
+  ]
+}
