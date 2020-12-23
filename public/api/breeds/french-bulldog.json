@@ -1,5 +1,6 @@
 { "data": {
-    "id": "french-bulldog",
+  "type": "breeds",
+  "id": "french-bulldog",
     "attributes": {
       "name": "French Bulldog",
       "weight": "up to 28 pounds",

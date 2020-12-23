@@ -1,5 +1,6 @@
 { "data": {
-    "id": "yorkshire-terrier",
+  "type": "breeds",
+  "id": "yorkshire-terrier",
     "attributes": {
       "name": "Yorkshire Terrier",
       "weight": "7 pounds",

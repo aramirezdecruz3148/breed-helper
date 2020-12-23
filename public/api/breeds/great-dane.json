@@ -1,5 +1,6 @@
 { "data": {
-    "id": "great-dane",
+  "type": "breeds",
+  "id": "great-dane",
     "attributes": {
       "name": "Great Dane",
       "weight": "110-175 pounds",

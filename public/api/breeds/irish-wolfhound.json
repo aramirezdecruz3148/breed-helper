@@ -1,5 +1,6 @@
 { "data": {
-    "id": "irish-wolfhound",
+  "type": "breeds",
+  "id": "irish-wolfhound",
     "attributes": {
       "name": "Irish Wolf Hound",
       "weight": "105-120 pounds",

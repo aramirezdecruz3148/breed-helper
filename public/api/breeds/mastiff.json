@@ -1,5 +1,6 @@
 { "data": {
-    "id": "mastiff",
+  "type": "breeds",
+  "id": "mastiff",
     "attributes": {
       "name": "Mastiff",
       "weight": "120-230 pounds",
