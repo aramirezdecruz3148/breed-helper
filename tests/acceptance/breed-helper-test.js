@@ -10,8 +10,8 @@ module('Acceptance | breed helper', function(hooks) {
 
     assert.equal(currentURL(), '/');
     assert.dom('nav').exists();
-    assert.dom('h1').hasText('🐾 Breeds');
-    assert.dom('h2').hasText('Welcome to Breed Helper');
+    assert.dom('h1').hasText('🐾 BreedFinder');
+    assert.dom('h2').hasText('Welcome to Breed Finder');
 
     assert.dom('.jumbo a.button').hasText('About Us');
     await click('.jumbo a.button');
@@ -29,8 +29,8 @@ module('Acceptance | breed helper', function(hooks) {
 
     assert.equal(currentURL(), '/about');
     assert.dom('nav').exists();
-    assert.dom('h1').hasText('🐾 Breeds');
-    assert.dom('h2').hasText('About Breed Helper');
+    assert.dom('h1').hasText('🐾 BreedFinder');
+    assert.dom('h2').hasText('About Breed Finder');
 
     assert.dom('.jumbo a.button').hasText('Contact Us');
     await click('.jumbo a.button');
@@ -43,7 +43,7 @@ module('Acceptance | breed helper', function(hooks) {
 
     assert.equal(currentURL(), '/contact');
     assert.dom('nav').exists();
-    assert.dom('h1').hasText('🐾 Breeds');
+    assert.dom('h1').hasText('🐾 BreedFinder');
     assert.dom('h2').hasText('Contact Us');
 
     assert.dom('.jumbo a.button').hasText('About Us');
@@ -56,7 +56,7 @@ module('Acceptance | breed helper', function(hooks) {
     await visit('/');
 
     assert.dom('nav').exists();
-    assert.dom('nav a.menu-index').hasText('🐾 Breeds');
+    assert.dom('nav a.menu-index').hasText('🐾 BreedFinder');
     assert.dom('nav a.menu-about').hasText('About');
     assert.dom('nav a.menu-contact').hasText('Contact');
 

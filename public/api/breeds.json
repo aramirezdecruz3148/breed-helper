@@ -18,7 +18,7 @@
       }
     },
     {
-      "id": "wolf-hound",
+      "id": "irish-wolfhound",
       "attributes": {
         "name": "Irish Wolf Hound",
         "weight": "105-120 pounds",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "yorkie",
+      "id": "yorkshire-terrier",
       "attributes": {
         "name": "Yorkshire Terrier",
         "weight": "7 pounds",

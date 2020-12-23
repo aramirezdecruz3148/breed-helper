@@ -4,7 +4,11 @@
     alt="A picture of a {{@breed.name}}"
   />
   <div class="details">
-    <h3>{{@breed.name}}</h3>
+    <h3>
+      <LinkTo @route="breed" @model={{@breed}}>
+        {{@breed.name}}
+      </LinkTo>
+    </h3>
     <div class="detail weight">
       <span>Weight:</span> {{@breed.weight}}
     </div>
