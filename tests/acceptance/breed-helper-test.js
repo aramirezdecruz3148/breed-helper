@@ -24,6 +24,24 @@ module('Acceptance | breed helper', function(hooks) {
     assert.equal(currentURL(), '/contact');
   });
 
+  test('viewing the details of a single breed', async function(assert) {
+    await visit('/');
+    assert.dom('.breed').exists({ count: 5 });
+
+    await click('.breed:first-of-type a');
+    assert.equal(currentURL(), '/breeds/great-dane');
+  });
+
+  test('visiting /breeds/great-dane', async function(assert) {
+    await visit('/breeds/great-dane');
+
+    assert.equal(currentURL(), '/breeds/great-dane');
+    assert.dom('nav').exists();
+    assert.dom('h1').containsText('BreedFinder');
+    assert.dom('h2').containsText('Great Dane');
+    assert.dom('.breed.detailed').exists();
+  });
+
   test('visiting /about', async function(assert) {
     await visit('/about');
 

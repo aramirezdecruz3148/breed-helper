@@ -119,7 +119,7 @@ p {
   bottom: 5px;
 }
 
-.rentals label span {
+.breeds label span {
   font-size: 140%;
   margin: 50px auto 20px;
   display: block;
@@ -127,7 +127,7 @@ p {
   font-style: italic;
 }
 
-.rentals input {
+.breeds input {
   padding: 11px;
   font-size: 18px;
   width: 500px;
@@ -220,7 +220,7 @@ p {
 }
 
 /**
- * Individual Rental Listing
+ * Individual Breed
  */
 
 .breed  {
@@ -233,7 +233,7 @@ p {
   flex-wrap: wrap;
 }
 
-.breed :hover {
+.breed:hover {
   background-color: #f3f3f3;
 }
 
@@ -344,10 +344,10 @@ p {
   margin: 0px 25px;
 }
 
-.breed  .map img {
+/* .breed  .map img {
   width: 150px;
   height: 150px;
-}
+} */
 
 .breed .detailed {
   background: none;
@@ -378,10 +378,11 @@ p {
   flex-shrink: 2;
 }
 
-.breed .detailed .description {
+.detailed .description {
   white-space: normal;
   flex-basis: 100%;
   flex-shrink: 1;
+  padding: 20px;
 }
 
 .breed .detailed .map {

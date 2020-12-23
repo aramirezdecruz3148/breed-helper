@@ -1,14 +1,20 @@
-<article class="breed">
+<Header>
+  <h2>{{@breed.name}}</h2>
+  <p>Could this be the breed for you?</p>
+  <a href="#" target="_blank" rel="external nofollow noopener noreferrer" class="share button">
+    Share on Twitter
+  </a>
+</Header>
+
+<article class="breed detailed">
   <Breed::Image
-    src={{@breed.image}}
+    src="../../{{@breed.image}}"
     alt="A picture of a {{@breed.name}}"
   />
+
   <div class="details">
-    <h3>
-      <LinkTo @route="breed" @model={{@breed}}>
-        {{@breed.name}}
-      </LinkTo>
-    </h3>
+    <h3>About {{@breed.name}}</h3>
+
     <div class="detail weight">
       <span>Weight:</span> {{@breed.weight}}
     </div>
@@ -25,13 +31,17 @@
       <span>Breed Origin:</span> {{@breed.origin}}
     </div>
   </div>
-  
+    <div class="detail description">
+      {{@breed.description}}
+    </div>
+
   <Map
     @lat={{@breed.location.lat}}
     @lng={{@breed.location.lng}}
-    @zoom="9"
-    @width="150"
-    @height="150"
-    alt="A map of origin for {{@breed.name}}"
+    @zoom="12"
+    @width="894"
+    @height="600"
+    alt="A map of {{@breed.name}}"
+    class="large"
   />
 </article>

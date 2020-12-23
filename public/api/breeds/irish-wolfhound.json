@@ -1,5 +1,4 @@
-{ "data": [
-  {
+{ "data": {
     "id": "irish-wolfhound",
     "attributes": {
       "name": "Irish Wolf Hound",
@@ -16,5 +15,4 @@
       "description": "The amiable Irish Wolfhound is an immense, muscular hound gracefully built along classic Greyhound lines, capable of great speed at the gallop. A male might stand nearly 3 feet at the shoulder and weigh up to 180 pounds. Females will run smaller but are still a whole lot of hound. The rough, hard coat comes in many colors, including white, gray, brindle, red, black, and fawn. IWs are too serene to be fierce guard dogs, but just the sight of them is enough to deter intruders. IWs are characteristically patient with kids, though animals their size should be supervised around small children. Owning an Irish Wolfhound is a unique, rewarding experience—but acquiring a giant galloping hound is a commitment as big as the dog itself."
     }
   }
-  ]
 }
