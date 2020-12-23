@@ -1,9 +1,12 @@
 <Header>
   <h2>{{@breed.name}}</h2>
   <p>Could this be the breed for you?</p>
-  <a href="#" target="_blank" rel="external nofollow noopener noreferrer" class="share button">
-    Share on Twitter
-  </a>
+  <ShareButton
+    @text="What do you think of {{@breed.name}}'s? I am thinking about a new puppy!"
+    @hashtags="puppy,breed,dogs,cutedogs,purebred,newpuppylove"
+    @via="emberjs"
+  >    Share on Twitter
+  </ShareButton>
 </Header>
 
 <article class="breed detailed">

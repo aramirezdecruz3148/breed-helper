@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { click, visit, currentURL } from '@ember/test-helpers';
+import { click, find, visit, currentURL } from '@ember/test-helpers';
 import { setupApplicationTest } from 'ember-qunit';
 
 module('Acceptance | breed helper', function(hooks) {
@@ -40,6 +40,17 @@ module('Acceptance | breed helper', function(hooks) {
     assert.dom('h1').containsText('BreedFinder');
     assert.dom('h2').containsText('Great Dane');
     assert.dom('.breed.detailed').exists();
+    assert.dom('.share.button').hasText('Share on Twitter');
+
+    let button = find('.share.button');
+
+    let tweetURL = new URL(button.href);
+    assert.equal(tweetURL.host, 'twitter.com');
+
+    assert.equal(
+      tweetURL.searchParams.get('url'),
+      `${window.location.origin}/breeds/great-dane`
+    );
   });
 
   test('visiting /about', async function(assert) {
