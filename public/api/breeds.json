@@ -13,7 +13,7 @@
           "lng": 13.4050
         },
         "group": "Working",
-        "image": "assets/images/great-dane.jpg",
+        "image": "https://www.pet365.co.uk/blog/wp-content/uploads/Great-Dane_58127023.jpg",
         "span": "7-10 years",
         "description": "As tall as 32 inches at the shoulder, Danes tower over most other dogs—and when standing on their hind legs, they are taller than most people. These powerful giants are the picture of elegance and balance, with the smooth and easy stride of born noblemen. The coat comes in different colors and patterns, perhaps the best-known being the black-and-white patchwork pattern known as 'harlequin.' Despite their sweet nature, Danes are alert home guardians. Just the sight of these gentle giants is usually enough to make intruders think twice. But those foolish enough to mistake the breed’s friendliness for softness will meet a powerful foe of true courage and spirit. Patient with kids, Danes are people pleasers who make friends easily."
       }
@@ -31,7 +31,7 @@
           "lng": -6.266155
         },
         "group": "Hound",
-        "image": "assets/images/irish-wolf-hound.jpg",
+        "image": "https://image.shutterstock.com/image-photo/happy-irish-wolfhound-sits-on-260nw-107704607.jpg",
         "span": "6-8 years",
         "description": "The amiable Irish Wolfhound is an immense, muscular hound gracefully built along classic Greyhound lines, capable of great speed at the gallop. A male might stand nearly 3 feet at the shoulder and weigh up to 180 pounds. Females will run smaller but are still a whole lot of hound. The rough, hard coat comes in many colors, including white, gray, brindle, red, black, and fawn. IWs are too serene to be fierce guard dogs, but just the sight of them is enough to deter intruders. IWs are characteristically patient with kids, though animals their size should be supervised around small children. Owning an Irish Wolfhound is a unique, rewarding experience—but acquiring a giant galloping hound is a commitment as big as the dog itself."
       }
@@ -49,7 +49,7 @@
           "lng": -0.1278 
         },
         "group": "Working",
-        "image": "assets/images/mastiff.jpg",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12230849/Mastiff-On-White-03.jpg",
         "span": "6-10 years",
         "description": "For the uninitiated, a face-to-face encounter with these black-masked giants can be startling. A male stands at least 30 inches at the shoulder and can outweigh many a full-grown man. The rectangular body is deep and thickly muscled, covered by a short double coat of fawn, apricot, or brindle stripes. The head is broad and massive, and a wrinkled forehead accentuates an alert, kindly expression. Mastiffs are patient, lovable companions and guardians who take best to gentle training. Eternally loyal Mastiffs are protective of family, and a natural wariness of strangers makes early training and socialization essential. Mastiffs are magnificent pets, but acquiring a powerful giant-breed dog is commitment not to be taken lightly."
       }
@@ -67,7 +67,7 @@
           "lng": -0.1278 
         },
         "group": "Toy",
-        "image": "assets/images/yorkie.jpg",
+        "image": "https://www.petplan.co.uk/images/breed-info/yorkshire-terrier/Yorkshire-Terrier_Vital-stats_Petplan.jpg",
         "span": "11-15 years",
         "description": "The Yorkshire Terrier is a compact, toy-size terrier of no more than seven pounds whose crowning glory is a floor-length, silky coat of steel blue and a rich golden tan. Don’t let the Yorkie’s daintiness fool you. Tenacious, feisty, brave, and sometimes bossy, the Yorkie exhibits all the traits of a true terrier. Often named the most popular dog breed in various American cities, Yorkies pack lots of big-town attitude into a small but self-important package. They are favorites of urbanites the world over. Yorkies are long-lived and low-allergen (the coat is more like human hair than animal fur), and they make fine little watchdogs. This is a true “personality breed,” providing years of laughs, love, and close companionship."
       }
@@ -85,7 +85,7 @@
           "lng": 2.3522 
         },
         "group": "Non-Sporting",
-        "image": "assets/images/frenchie.jpg",
+        "image": "https://www.petplan.co.uk/images/breed-info/french-bulldog/Vital-Stats_French-Bulldog-Petplan.jpg",
         "span": "10-12 years",
         "description": "The French Bulldog resembles a Bulldog in miniature, except for the large, erect 'bat ears' that are the breed’s trademark feature. The head is large and square, with heavy wrinkles rolled above the extremely short nose. The body beneath the smooth, brilliant coat is compact and muscular. The bright, affectionate Frenchie is a charmer. Dogs of few words, Frenchies don’t bark much—but their alertness makes them excellent watchdogs. They happily adapt to life with singles, couples, or families, and do not require a lot of outdoor exercise. They get on well with other animals and enjoy making new friends of the human variety. It is no wonder that city folk from Paris to Peoria swear by this vastly amusing and companionable breed."
       }
