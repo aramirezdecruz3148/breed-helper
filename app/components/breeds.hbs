@@ -1,0 +1,13 @@
+<div class="breeds">
+  <label>
+    <span>What breed are you looking for?</span>
+    <Input @value={{this.query}} class="light" />
+  </label>
+  <ul class="results">
+    <Breeds::Filter @breeds={{@breeds}} @query={{this.query}} as |results|>
+      {{#each results as |breed|}}
+        <li><Breed @breed={{breed}} /></li>
+      {{/each}}
+    </Breeds::Filter>
+  </ul>
+</div>

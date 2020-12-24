@@ -4,10 +4,4 @@
   <LinkTo @route="about" class="button">About Us</LinkTo>
   <LinkTo @route="contact" class="button">Contact Us</LinkTo>
 </Header>
-<div class="breeds">
-  <ul class="results">
-    {{#each @model as |breed|}}
-      <li><Breed @breed={{breed}} /></li>
-    {{/each}}
-  </ul>
-</div>
+<Breeds @breeds={{@model}} />
