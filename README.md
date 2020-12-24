@@ -1,6 +1,6 @@
 # Breed Finder App
 
-I built this app using the Ember guides [tutorial](https://guides.emberjs.com/release/tutorial/part-1/), but created BreedFinder instead of SuperRentals.
+I built this app using the Ember guides [tutorial](https://guides.emberjs.com/release/tutorial/part-1/), but created BreedFinder instead of SuperRentals. You can view the deployed app [here](https://elated-ptolemy-cd21b0.netlify.app/)
 
 ## Tools Used
 
